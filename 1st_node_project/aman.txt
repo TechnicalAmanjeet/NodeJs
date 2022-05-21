@@ -1,0 +1,1 @@
+my first line through cmd prompt
