@@ -4,10 +4,7 @@
   "description": "This will be my first node project.",
   "main": "index.html",
   "scripts": {
-    "lite" : "lite-server",
-    "live" : "live-server",
-    "runServer" : "npm run live",
-    "start" : "npm run lite",
+    "start": "nodemon run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
