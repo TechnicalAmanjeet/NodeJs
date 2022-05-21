@@ -1,1 +1,0 @@
-console.log("Amanjeet Kumar hello how are you ")
