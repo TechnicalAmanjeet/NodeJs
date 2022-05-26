@@ -1,7 +1,7 @@
 const {MongoClient} = require('mongodb');
 
 
-const url = 'mongodb+srv://analytics-student:asdf12345@cluster0.dsifi.mongodb.net/?retryWrites=true&w=majority';
+const url = 'mongodb+srv://a@cluster0.dsifi.mongodb.net/?retryWrites=true&w=majority';
 
 const client = new MongoClient(url);
 
