@@ -1,0 +1,14 @@
+{
+  "name": "node_mongodb",
+  "version": "1.0.0",
+  "description": "in this package i will learn about how to connect node with mongodb database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Technical Amanjeet",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.6.0"
+  }
+}
