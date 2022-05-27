@@ -7,7 +7,7 @@ const collectionName = 'Document';
 const client = new MongoClient(url);
 // console.log(client);
 
-// M-1 => Handling promises by using async and await.
+// M-1 => Handling promises by using async and await. ( latest )
 
 // async function getData(){
 //     const connect = await client.connect();
@@ -21,7 +21,7 @@ const client = new MongoClient(url);
 
 // getData();
 
-// M-2 
+// M-2  ( old dated )
 client.connect().then( (connection) => {
     console.log("1");
     return connection.db(dbName);
