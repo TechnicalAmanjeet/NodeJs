@@ -9,8 +9,11 @@ const dataToUpdate = { "Name" : "Riya",
 async function updateData(){
     try{
         const collection = await dbConnect();
-    collection.updateMany({"Name" : "Aman"}, {$set : {"Name" : "Riya"}});
-    console.log("Update Done");
+        const result = await collection.updateMany({"Name" : "Riya"}, {$set : {"Name" : "Neha"}});
+    // console.log("Update Done");
+        if(result.acknowledged){
+            console.log("Data updated successfully");
+        }
     }
     catch(err){
         console.log("err =>> " + err);

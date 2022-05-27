@@ -16,8 +16,10 @@ const dataToInsert = [
 async function insertData(data){
     try{
         const collection = await dbConnect();
-    collection.insertMany(data);
-    console.log("Insertion Done");
+        const result = await collection.insertMany(data);
+        if(result.acknowledged){
+            console.log("Data inserted successfully");
+        }
     }
     catch(err){
         console.log("err =>> " + err);

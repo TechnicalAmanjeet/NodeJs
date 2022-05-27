@@ -6,6 +6,7 @@ const dataToInsert = [
       "Age" : 22,
       "Gender" : "male"
   },
+  
   {
       "Name" : "Kanhaya",
       "Age" : 21,
