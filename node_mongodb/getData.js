@@ -4,10 +4,10 @@ async function getData(){
     // console.log("inside getData");
     const collection = await dbConnect();
     const data = await collection.find().toArray();
-    // console.log(data);
+    console.log(data);
     return data;
 }
 
-// getData();
+getData();
 
 module.exports = getData;
