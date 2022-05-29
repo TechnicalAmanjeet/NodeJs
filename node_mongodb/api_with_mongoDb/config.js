@@ -8,11 +8,12 @@ const collectionName = 'products';
 
 const client = new mongodb.MongoClient(url);
 
-const mdbConnection = async () =>{
+async function mdbConnection(){
     const connection = await client.connect();
     const db = connection.db(dbName);
     const collection = db.collection(collectionName);
     // console.log(await collection.find().toArray());
+    console.log("Connected to mdb Server.");
     return collection;
 }
 
