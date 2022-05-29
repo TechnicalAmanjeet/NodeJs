@@ -1,5 +1,6 @@
 const data = require('./getData');
 const insertData = require('./insertIntoDB');
+const deleteFromDB = require('./deleteFromDB');
 
 const dataToInsert = {
     "Name":"Redmi Note 10 pro plus",
@@ -8,9 +9,14 @@ const dataToInsert = {
     "Catagory": "Mobile"
 };
 
-async function test(){
-    const da = await insertData(dataToInsert);
-    console.log(da)
+const deleteData = {
+    "Price": 16000
 }
 
-test();
+async function test(data){
+    const result = await deleteFromDB(deleteData);
+    console.log(result)
+}
+
+
+test(deleteData);
