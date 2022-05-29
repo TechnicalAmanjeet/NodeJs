@@ -17,7 +17,7 @@ async function insertData(data){
         console.log("Data inserted successfully");
         return result;
     }
-    // console.log(result);
+    console.log("insert data to mdb server");
     }
     catch(err){
         console.log("error : " + err);

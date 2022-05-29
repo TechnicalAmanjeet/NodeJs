@@ -7,7 +7,7 @@ const obj = {
 async function deleteFromDB(obj){
     const collection = await mdbConnection();
     const result = await collection.deleteOne(obj);
-    // console.log(result);
+    console.log("delete data");
     return result;
 }
 

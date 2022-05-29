@@ -17,10 +17,10 @@ const deleteData = {
     "Price": 16000
 }
 
-async function test(cond, change){
-    const result = await updateDataToMDB(cond, change);
-    console.log(result)
-}
+// async function test(cond, change){
+//     const result = await updateDataToMDB(cond, change);
+//     console.log(result)
+// }
 
 
 

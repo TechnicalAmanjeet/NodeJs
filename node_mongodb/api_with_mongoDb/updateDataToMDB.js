@@ -11,5 +11,5 @@ const updateDataToMDB = async (condtion, change) =>{
     return result;
 }
 
-updateDataToMDB(cond, change);
+// updateDataToMDB(cond, change);
 module.exports = updateDataToMDB;

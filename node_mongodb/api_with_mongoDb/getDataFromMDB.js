@@ -7,7 +7,7 @@ async function getData(findObject = {}){
         const collection = await mdbConnection();
     const data = await collection.find(findObject).toArray();
     console.log("Getting Data from mdb server.");
-    // console.log(data);
+    // console.log("getting data from mdb server");
     return data;
     }
     catch(err){
