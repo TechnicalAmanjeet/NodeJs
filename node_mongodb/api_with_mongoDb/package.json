@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Technical Amanjeet",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.6.0"
+  }
 }
